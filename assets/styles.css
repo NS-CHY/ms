@@ -215,3 +215,21 @@ body {
 .brand.color_e3ce82{
   color: #e3ce82;
 }
+/*show*/
+#show-list li img{
+  width: 100%;
+  height: 100%;
+}
+#show-list li{
+  height: 300px;
+  background-color: #ccc;
+}
+#show-list li .innerbox{
+  width: 90%;
+  height: 90%;
+  padding:5%;
+}
+#show-img-box{
+  width: 100%;
+  height: 80%;
+}

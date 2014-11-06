@@ -57,7 +57,21 @@ app.controller('ctrl', ['$scope',
 // show controller
 app.controller('showCtrl', ['$scope',
 	function($scope) {
-
+		$scope.showObj = {
+			list: [{
+				name: 'MS001',
+				img: 'images/001.jpg'
+			}, {
+				name: 'MS002',
+				img: 'images/002.jpg'
+			}, {
+				name: 'MS003',
+				img: 'images/003.jpg'
+			}, {
+				name: 'MS004',
+				img: 'images/004.jpg'
+			}, ]
+		}
 	}
 ]);
 // about controller
